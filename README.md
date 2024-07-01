@@ -1,6 +1,34 @@
-# NoStandaloneApp
+# Space Invaders
+
+The game is a modern take on the classic arcade game, where you control a spaceship to defend Earth from waves of invading aliens.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.5.
+
+
+## Demo
+
+You can play the game live here:
+
+http://spaceinvadersangular.s3-website.us-east-2.amazonaws.com/
+
+## Usage:
+Move the spaceship: Use the arrow keys (left and right) to move your spaceship.
+
+Shoot: Press the arrow key (up) to shoot bullets at the incoming aliens.
+
+## To run this project locally, follow these steps:
+
+### Clone the repository:
+
+git clone https://github.com/Raphael-Shalem/space_invaders_angular.git
+
+cd space-invaders-angular
+
+### Install dependencies:
+
+Make sure you have Node.js and npm installed. Then run:
+
+npm install
 
 ## Development server
 
@@ -25,3 +53,5 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+Thank you for checking out the Space Invaders Game! Happy gaming!
