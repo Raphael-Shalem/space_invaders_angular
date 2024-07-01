@@ -1,0 +1,9 @@
+
+.alien_laser{
+    position: absolute;
+    width: 2px;
+    height: 30px;
+    background-color:#9f9;
+    transition:transform 0.04s;
+    -webkit-transition:transform 0.04s;
+}

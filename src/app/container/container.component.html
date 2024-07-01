@@ -1,0 +1,21 @@
+<div class="root">
+    <img class="stars2__" src ="http://spaceinvasion.s3-website.us-east-2.amazonaws.com/images/stars.png" width="100%" alt="starts">
+    <img class="stars1__" src ="http://spaceinvasion.s3-website.us-east-2.amazonaws.com/images/stars.png" width="100%" alt="starts">
+    <img class="stars0__" src ="http://spaceinvasion.s3-website.us-east-2.amazonaws.com/images/stars.png" width="100%" alt="starts">
+    <img class="stars2" src ="http://spaceinvasion.s3-website.us-east-2.amazonaws.com/images/stars.png" width="100%" alt="starts">
+    <img class="stars1" src ="http://spaceinvasion.s3-website.us-east-2.amazonaws.com/images/stars.png" width="100%" alt="starts">
+    <img class="stars0" src ="http://spaceinvasion.s3-website.us-east-2.amazonaws.com/images/stars.png" width="100%" alt="starts">
+    <app-aliens></app-aliens>
+    <app-laser-beam></app-laser-beam>
+    <app-spaceship></app-spaceship>
+    <ng-container *ngFor="let laser of [].constructor(4); let i = index">
+       <app-alien-laser [id]="i"></app-alien-laser>
+    </ng-container>
+    <app-modal></app-modal>
+    <div 
+       class="smallScreen"
+       *ngIf="smallScreen"
+    >
+       <p>Try Using A Larger Screen</p>
+   </div>
+</div>

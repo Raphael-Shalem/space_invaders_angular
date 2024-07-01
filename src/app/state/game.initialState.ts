@@ -1,0 +1,37 @@
+
+export const InitialState = {
+    modal_opacity:1,
+    interval:0,
+    interval_set:0,
+    key:"",
+    keys_pressed:[],
+    shoot_laser:false,
+    spaceship_location_x:15,
+    spaceship_destroyed:0,
+    alien_army_destroyed:0,
+    laser_location_x:0,
+    laser_location_y:0,
+    laser_opacity:1,
+    alien_army: new Array(50).fill(1),
+    army_position_x:0,
+    army_position_y:0,
+    counter:0,
+    direction:0,
+    alien_speed:2,
+    dead_alien:0,
+    dead_alien_counter:0,
+    right_flank:0,
+    left_flank:0,
+    max_right:0,
+    max_left:0,
+    dead_columns: new Array(10).fill(1),
+    dead_rows:0,
+    shooting_speed: 165,
+    obj0:{ pos:{}, shooter:0, set:0, fired:0, rand:0, count:0, opacity:0, hit:0 },
+    obj1:{ pos:{}, shooter:0, set:0, fired:0, rand:0, count:0, opacity:0, hit:0 },
+    obj2:{ pos:{}, shooter:0, set:0, fired:0, rand:0, count:0, opacity:0, hit:0 },
+    obj3:{ pos:{}, shooter:0, set:0, fired:0, rand:0, count:0, opacity:0, hit:0 },
+    game_over:0
+};
+
+                    

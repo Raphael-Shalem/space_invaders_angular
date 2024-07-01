@@ -1,0 +1,21 @@
+<div class="modal" [style.opacity]=opacity>
+    <div class="txt_wrapper">
+        <div className="txt0">
+            <p *ngIf="!game_over">Controls</p>
+            <p *ngIf="alien_army_destroyed && spaceship_destroyed">You sacrificed yourself to save humanity. Thanks.</p>
+            <p *ngIf="!alien_army_destroyed && spaceship_destroyed">Looks like you got blown up.<br/>Better luck next time.</p>
+            <p *ngIf="game_over && !spaceship_destroyed">You have defeated the aliens and saved the world. Well done.</p>
+        </div>
+        <div *ngIf="!game_over" class="txt1">
+            <p class="controll">Move Right</p><p class="controll">&#8594;</p>  
+        </div>
+        <div *ngIf="!game_over" class="txt1">
+            <p class="controll">Move Left</p><p class="controll">&#8592;</p>  
+        </div>
+        <div *ngIf="!game_over" class="txt1">
+            <p class="controll">Fire</p><p class="controll">&#8593;</p>  
+        </div>
+        <button class="new_game_button" (click)="setint()">New Game</button>
+    </div>
+</div>
+

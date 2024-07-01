@@ -1,0 +1,23 @@
+<div  class='spaceship' [style.transform]=transform>
+  <div *ngIf="!spaceship_destroyed">
+       <svg xmlns="http://www.w3.org/2000/svg">
+          <g>
+            <path class="blaze1" d="M12.5,82.5l1.5-8.8l1.5,8.7c0,0,1.7,14-1.5,38.5C14,120.9,11.7,98.8,12.5,82.5z"/>
+            <path class="blaze1" d="M62.1,82.5l1.5-8.8l1.5,8.7c0,0,1.7,14-1.5,38.5C63.5,120.9,61.3,98.8,62.1,82.5z"/>
+            <path class="blaze2" d="M13.2,78.6l0.8-5l0.8,4.9c0,0,1,7.9-0.8,21.8C14.1,100.4,12.8,87.9,13.2,78.6z"/>
+            <path class="blaze2" d="M62.8,78.6l0.8-5l0.8,4.9c0,0,1,7.9-0.8,21.8C63.6,100.4,62.3,87.9,62.8,78.6z"/>
+          </g>
+       </svg>
+       <img
+         src="http://spaceinvasion.s3-website.us-east-2.amazonaws.com/images/spaceship.png"
+         width="77px"
+         class="spaceship_img"
+         alt="spaceship"
+       />
+    </div>
+    <div
+      *ngIf="spaceship_destroyed"
+      class="boom"
+    >
+    </div>
+</div>

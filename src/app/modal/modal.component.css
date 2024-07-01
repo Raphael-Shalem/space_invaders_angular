@@ -1,0 +1,55 @@
+.modal{
+    width:1260px;
+    height:700px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    border: 1px solid #000;
+    font-family: 'Aldrich';
+    font-size: 15px;
+    text-align:center;
+    line-height: 150%;
+    transition:.3s all;
+    -webkit-transition:.3s all;
+    z-index: 1;
+  }
+  
+  .txt_wrapper{
+    width:300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    border: 1px solid #9cbcf0;
+    padding: 60px;
+    color:#fff;
+    background-color:#000;
+  }
+  
+  .txt0{
+   
+  }
+
+  .txt1 {
+    /* border:1px solid #DDD; */
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+  }
+
+
+  .controll {
+    flex: 1
+  }
+
+  .new_game_button{
+    width:280px;
+    height:40px;
+    margin-top: 30px;
+    background-color:#9cbcf0;
+    cursor: pointer;
+  }

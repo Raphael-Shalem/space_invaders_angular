@@ -1,0 +1,22 @@
+<div class = "root">
+    <div class = "wrapper" [style.transform]=move_army>
+        <div 
+            class = "alien_div" 
+            *ngFor="let health of alien_army let i = index"
+            [style.overflow]="!!health ? 'hidden' : 'visible'"
+        >
+            <img 
+                 *ngIf="health"
+                 src ="http://spaceinvasion.s3-website.us-east-2.amazonaws.com/images/alien.png"
+                 width = "100%"
+                 class = "alien_sprite"
+                 alt = "alien"
+            />
+            <div
+               *ngIf="!health && i === dead_alien"
+               class="boom"
+            >
+            </div>
+        </div>
+    </div>
+</div>
