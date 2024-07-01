@@ -22,7 +22,7 @@ Shoot: Press the arrow key (up) to shoot bullets at the incoming aliens.
 
 git clone https://github.com/Raphael-Shalem/space_invaders_angular.git
 
-cd space-invaders-angular
+cd space_invaders_angular
 
 ### Install dependencies:
 
